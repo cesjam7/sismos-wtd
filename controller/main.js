@@ -23,7 +23,7 @@ app.config(['$routeProvider', function($routeProvider){
 }])
 
 app.controller("Procedimientos", function ($scope, $http, $routeParams, filterFilter) {
-	$http.get('http://jovenred.com/sismos-wtd/json/sismos_wtd.json').success(function (data) {
+	$http.get('json/sismos_wtd.json').success(function (data) {
 
 		var filter = filterFilter(data.sismos_wtd.acciones, {
 			name: $routeParams.etapa
@@ -43,7 +43,7 @@ app.controller("Procedimientos", function ($scope, $http, $routeParams, filterFi
 })
 
 app.controller("Telefonos", function ($scope, $http, $routeParams) {
-	$http.get('http://jovenred.com/sismos-wtd/json/sismos_wtd.json').success(function (data) {
+	$http.get('json/sismos_wtd.json').success(function (data) {
 
 		$scope.telefonos = data.sismos_wtd.telefonos;
 
