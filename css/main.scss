@@ -2,16 +2,36 @@
 $rojo: #C70B0B;
 
 body {
+	margin: 0;
+	padding: 0;
 	font-family: Open Sans;
 	font-size: 20px;
+	color: #333;
+}
+a {
+	text-decoration: none;
+	color: #333;
 }
 ul {
-	padding-left: 0;
-	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+li strong {
+	font-weight: 600;
+}
+sub {
+	vertical-align: middle;
+	font-size: 0.8em;
+}
+.visible-xs {
+	display: none !important;
+
+	@media (max-width: 768px){
+		display: block !important;
+	}
 }
 .header {
 	background: $rojo;
-	color: #fff;
 	text-align: center;
 	padding: 20px 10px;
 
@@ -19,6 +39,10 @@ ul {
 		margin: 0;
 		font-weight: 300;
 		font-size: 1.6em;
+
+		a {
+			color: #fff;
+		}
 	}
 }
 %block {
@@ -52,6 +76,19 @@ ul {
 		li {
 			@extend %block;
 			padding: 10px 20px;
+
+			&.true label {
+				text-decoration: line-through;
+			}
 		}
+		label {
+			font-weight: normal;
+			cursor: pointer;
+		}
+	}
+}
+.about {
+	a {
+		font-weight: 600;
 	}
 }

@@ -1,44 +1,38 @@
-{"sismos_wtd" : {
-    "acciones" : 
+{"wtd" : {
+    "sismos" : 
     [{
         "name" : "antes",
         "titulo" : "Antes del sismo",
         "procedimientos" : [
-            "Identificar las áreas estructurales del plantel para determinar las zonas de menor riesgo internas (columnas, trabes, muros de carga) y márcalas en el croquis del plantel. Recuerda: No las obstruyas con mobiliario.",
-            "Fijar a la pared los estantes, archiveros y anaqueles y no los sobrecargues. Colocar lo más pesado en la parte baja y lo ligero en la parte alta.",
-            "Identificar dónde se encuentran las llaves de paso del agua, gas y el interruptor o tablero de la corriente eléctrica.",
-            "Mantener los pasillos y áreas de circulación libres de obstáculos para contar con rutas de evacuación adecuadas y marcarlas en el croquis del plantel.",
-            "Realizar simulacros de evacuación y repliegue al menos 2 veces por mes.",
-            "Tener los números telefónicos de emergencia en un lugar visible.",
-            "Portar siempre una identificación.",
-            "Tener a la mano el número de la póliza del seguro S.E.P., a fin de realizar el reclamo en caso necesario."
+            "Revisa ele stado de las instalaciones de gas, agua y sistema eléctrico. Corrije las deficiencias",
+            "Mantén libre los obstáculos, pasillos y puertas, y cambia d elugar objetos o muebles que le puedan lastimar o caer encima, sobre todo cerca a las camas",
+            "Establece un plan de Emergencia y Evacuación (no necesariamente escrito), Reúnete cpm tu familia y vecinos para planificar acciones de Preparación y de Respuesta",
+            "Prepara una mochila para Emergencias, fácilo de llevar en casos de evacuación.",
+            "Si usted vive en edificio, coordine previamente con la administración del edificio para contar con luces de emergencia, extintores operativos, que los pasadizosde acceso a zonas de escape y que las puertas, que conducen a las escaleras de escape, se puedan abrir hacia afuera y estén libres de obstáculos, como macetas.",
+            "Si vive en edicio, no utilices los acsensores en caso de sismo",
+            "En tu centro de estudio o trabajo armen un botiquín y déjenlo en lugar visible y accesible."
         ]
     },
     {
         "name" : "durante",
         "titulo" : "Durante el sismo",
         "procedimientos" : [
-            "Conservar la calma",
-            "Alejarse de las ventanas",
-            "Dirigirse, de acuerdo al procedimiento establecido en tu escuela, a las zonas internas de menor riesgo (repliegue)",
-            "No perder tiempo buscando objetos personales",
-            "Seguir las instrucciones de los brigadistas facilitando su labor",
-            "Dirigirse al punto de reunión más cercano, si se está en las áreas abiertas",
-            "Auxiliar a las personas si es posible, si no retirarse y permitir que los brigadistas actúen"
+            "Conserva la calma en todo momento; evalúa la situación y ayuda a los demás. Ejecuta lo practicado.",
+            "Aléjate de las ventanas, repisas o de cualquier utensilio, artefacto u objeto que pueda rodar o caer en en la Vía de Evacuación.",
+            "Si no puede salir, ubícate en una de las Zonas de Seguridad previamente identificadas, hasta la evacuación. Mientras no puedas evacuar, ubícate en el lugar seguro previamente establecido, normalmente será al lado de las columnas o muros estructurales o cerca a la caja de ascensor.",
+            "Lleva contigo tu mochila para Emergencias"
         ]
     },
     {
         "name" : "despues",
         "titulo" : "Después del sismo",
         "procedimientos" : [
-            "Dirigirse al punto de reunión designado después del repliegue",
-            "Esperar indicaciones de los brigadistas y autoridades",
-            "Reportar de inmediato las fugas de agua, gas o, peligro de incendio a los brigadistas ",
-            "Usar el teléfono sólo para llamadas de emergencia",
-            "Reportar a los heridos o lesionados a los brigadistas",
-            "Manejar información precisa, no propagar rumores",
-            "Solicitar a las autoridades o a quien corresponda su intervención para iniciar los trabajos de limpieza, y gestionar el pago de los bienes muebles e inmuebles dañados (libros, equipo, mobiliario o cualquier otro).",
-            "Recuerde, todos los bienes y equipo de la escuela están asegurados, por ello es muy importante que el Director elabore las actas correspondientes, notifique a la aseguradora y a sus autoridades inmediatas, y sustente adecuadamente el siniestro con el propósito de recuperar los bienes dañados. (Agregar imagen de un y una brigadista)"
+            "Revisa si el inmueble está habitable y si el suministro eléctrico, asi como las conexiones de gas y agua están en buen estado, a fin de evitar incendios o inundaciones.",
+            "Solo haz uso de tu linterna. No enciedas fósforos ni velas.",
+            "Según lo acordado en el Plan de Emergencia Familiar elegir un número telefónico para usar la mensajería gratuita de voz '119'.",
+            "Acude al Punto de Encuentro previamente establecido, con tus amigos y familiares, una vez concluído el sismo.",
+            "Si estás en zona costera, aléjate de la playa lo antes posible para evitar un eventual Tsunami.",
+            "En lo posible, evita mover personas heridas o con fracturas, sin ayuda profesional; salvo que corra peligro de lesiones mayores."
         ]
     }],
     "telefonos" :
@@ -55,11 +49,49 @@
         "numero" : "106"
     },
     {
+        "entidad" : "Central de Emergencias de la Cruz Roja",
+        "numero" : "115"
+    },
+    {
         "entidad" : "INDECI - Instituto Nacional de Defensa Civil",
         "numero" : "(01) 2259898"
     },
     {
         "entidad" : "Cálidda - Gas Natural del Perú",
         "numero" : "1808"
+    }],
+    "mochila_emergencias" :
+    [{
+        "descripcion" : "Mochila que contiene artículos indispensables y de necesidad específica para la familia, en las primeras 24 horas.",
+        "caracteristicas" : "Debe tener bolsillos internos, laterales y frontales según disponibilidad. El peso total aproximado es de 8kg.",
+        "contenido" : 
+        [{
+            "categoria" : "Higiene",
+            "productos" : ["Gel antibacterial (1)", "Papel Higiénico (2)", "Toallas de mano y cara (4)", "Paquete de paños humedos (1)"]
+        },
+        {
+            "categoria" : "Botiquín",
+            "productos" : ["Botiquín de primeros auxilios (1)"]
+        },
+        {
+            "categoria" : "Bebidas y alimentos no perecibles",
+            "productos" : ["Comida enlatada (mínimo 2)", "Paquete de galletas de agua (2)", "Agua embotellada sin gas (4 de 1/2 litro)", "Chocolate en barra (2)"]
+        },
+        {
+            "categoria" : "Abrigo",
+            "productos" : ["manta Polar (2)", "Pantuflas (2 pares)"]
+        },
+        {
+            "categoria" : "Dinero",
+            "productos" : ["En monedas (varias)"]
+        },
+        {
+            "categoria" : "Comunicación",
+            "productos" : ["Linterna y pilas (1)", "Radio portatil (1)", "Silbato (1)", "Agenda con teléfonos de emergencias", "Útiles para escribir (1 juego)", "Plumón grueso (1)"]
+        },
+        {
+            "categoria" : "Diversos",
+            "productos" : ["Bolsas de plástico resistentes (10)", "Cuchilla multipropósito (1)", "Guantes de trabajo (1 par)", "Cerda de poliester (7m)", "Encendedor (2)", "Plático para piso o techo (3m cuadrados)", "Cinta adhesiva multiusos (1)", "Petate (Alfombra de paja o tela (1)", "Mascarillas (2)"]
+        }]
     }]
 }}

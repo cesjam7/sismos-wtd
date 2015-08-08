@@ -1,0 +1,24 @@
+<div ng-controller="Mochila">
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-briefcase"></i> Mochila para Emergencias</a></li>
+	</ul>
+	<ul class="description">
+		<li><strong>Descripción:</strong> {{::mochila_descripcion}}</li>
+		<li><strong>Características:</strong> {{::mochila_caracteristicas}}</li>
+		<li><strong>Productos: </strong><sub>(Marca los productos con los que ya cuentas)</sub></li>
+	</ul>
+	<ul class="description" ng-repeat="(key, mochila) in mochila_contenido">
+		<li><strong>{{::mochila.categoria}}</strong></li>
+		<li ng-repeat="producto in mochila.productos" class="check {{check}}">
+			<input type="checkbox" id="check-{{::key}}-{{$index + 1}}" ng-model="check" ng-true-value="true"> 
+			<label for="check-{{::key}}-{{$index + 1}}">{{::producto}}</label>
+		</li>
+	</ul>
+	<ul class="description">
+		<li><a href="https://twitter.com/intent/tweet?text=Prepara tu mochila para emergencias. Para saber cómo armarlo visita Sismos WTD &url=http://jovenred.com/sismos-wtd/#/mochila"><i class="fa fa-twitter"></i> Compártelo en Twitter</a></li>
+		<li class="visible-xs"><a href="whatsapp://send?text=Prepara tu mochila para emergencias. Para saber cómo armarlo visita Sismos WTD http://jovenred.com/sismos-wtd/#/mochila"><i class="fa fa-whatsapp"></i> Envíalo por Whatsapp</a></li>
+	</ul>
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-chevron-left"></i> <span>Volver al menú</span></a></li>
+	</ul>
+</div>

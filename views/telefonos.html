@@ -3,7 +3,7 @@
 		<li><a href="#home"><i class="fa fa-phone"></i> Números de emergencia</a></li>
 	</ul>
 	<ul class="description" ng-repeat="telefono in telefonos">
-		<li>{{ telefono.entidad }}: {{ telefono.numero }}</li>
+		<li>{{::telefono.entidad}}: {{::telefono.numero}}</li>
 	</ul>
 	<ul class="link">
 		<li><a href="#home"><i class="fa fa-chevron-left"></i> <span>Volver al menú</span></a></li>
