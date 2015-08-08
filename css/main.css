@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+body {
+  font-family: Open Sans;
+  font-size: 20px; }
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+.header {
+  background: #C70B0B;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px; }
+  .header h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.6em; }
+
+.sections .link a, .sections .description li {
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #BBB;
+  color: #333; }
+
+.sections .link li {
+  display: block; }
+.sections .link a:hover {
+  text-decoration: none;
+  background: #eee; }
+.sections .link i {
+  margin-right: 10px;
+  color: #C70B0B; }
+.sections .description {
+  font-size: 0.85em; }
+  .sections .description li {
+    padding: 10px 20px; }
+
+/*# sourceMappingURL=main.css.map */

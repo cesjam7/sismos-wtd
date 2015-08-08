@@ -1,0 +1,65 @@
+{"sismos_wtd" : {
+    "acciones" : 
+    [{
+        "name" : "antes",
+        "titulo" : "Antes del sismo",
+        "procedimientos" : [
+            "Identificar las áreas estructurales del plantel para determinar las zonas de menor riesgo internas (columnas, trabes, muros de carga) y márcalas en el croquis del plantel. Recuerda: No las obstruyas con mobiliario.",
+            "Fijar a la pared los estantes, archiveros y anaqueles y no los sobrecargues. Colocar lo más pesado en la parte baja y lo ligero en la parte alta.",
+            "Identificar dónde se encuentran las llaves de paso del agua, gas y el interruptor o tablero de la corriente eléctrica.",
+            "Mantener los pasillos y áreas de circulación libres de obstáculos para contar con rutas de evacuación adecuadas y marcarlas en el croquis del plantel.",
+            "Realizar simulacros de evacuación y repliegue al menos 2 veces por mes.",
+            "Tener los números telefónicos de emergencia en un lugar visible.",
+            "Portar siempre una identificación.",
+            "Tener a la mano el número de la póliza del seguro S.E.P., a fin de realizar el reclamo en caso necesario."
+        ]
+    },
+    {
+        "name" : "durante",
+        "titulo" : "Durante el sismo",
+        "procedimientos" : [
+            "Conservar la calma",
+            "Alejarse de las ventanas",
+            "Dirigirse, de acuerdo al procedimiento establecido en tu escuela, a las zonas internas de menor riesgo (repliegue)",
+            "No perder tiempo buscando objetos personales",
+            "Seguir las instrucciones de los brigadistas facilitando su labor",
+            "Dirigirse al punto de reunión más cercano, si se está en las áreas abiertas",
+            "Auxiliar a las personas si es posible, si no retirarse y permitir que los brigadistas actúen"
+        ]
+    },
+    {
+        "name" : "despues",
+        "titulo" : "Después del sismo",
+        "procedimientos" : [
+            "Dirigirse al punto de reunión designado después del repliegue",
+            "Esperar indicaciones de los brigadistas y autoridades",
+            "Reportar de inmediato las fugas de agua, gas o, peligro de incendio a los brigadistas ",
+            "Usar el teléfono sólo para llamadas de emergencia",
+            "Reportar a los heridos o lesionados a los brigadistas",
+            "Manejar información precisa, no propagar rumores",
+            "Solicitar a las autoridades o a quien corresponda su intervención para iniciar los trabajos de limpieza, y gestionar el pago de los bienes muebles e inmuebles dañados (libros, equipo, mobiliario o cualquier otro).",
+            "Recuerde, todos los bienes y equipo de la escuela están asegurados, por ello es muy importante que el Director elabore las actas correspondientes, notifique a la aseguradora y a sus autoridades inmediatas, y sustente adecuadamente el siniestro con el propósito de recuperar los bienes dañados. (Agregar imagen de un y una brigadista)"
+        ]
+    }],
+    "telefonos" :
+    [{
+        "entidad" : "Central de emergencias del Cuerpo de Bomberos",
+        "numero" : "116"
+    },
+    {
+        "entidad" : "Policía Nacional del Perú",
+        "numero" : "105"
+    },
+    {
+        "entidad" : "SAMU - Sistema de Atención Móvil de Urgencias",
+        "numero" : "106"
+    },
+    {
+        "entidad" : "INDECI - Instituto Nacional de Defensa Civil",
+        "numero" : "(01) 2259898"
+    },
+    {
+        "entidad" : "Cálidda - Gas Natural del Perú",
+        "numero" : "1808"
+    }]
+}}

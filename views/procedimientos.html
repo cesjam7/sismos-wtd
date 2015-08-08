@@ -1,0 +1,11 @@
+<div ng-controller="Procedimientos">
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-{{ icono }}"></i> {{ titulo }}</a></li>
+	</ul>
+	<ul class="description" ng-repeat="procedimiento in procedimientos">
+		<li>{{procedimiento}}</li>
+	</ul>
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-chevron-left"></i> <span>Volver al menú</span></a></li>
+	</ul>
+</div>

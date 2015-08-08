@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+$rojo: #C70B0B;
+
+body {
+	font-family: Open Sans;
+	font-size: 20px;
+}
+ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.header {
+	background: $rojo;
+	color: #fff;
+	text-align: center;
+	padding: 20px 10px;
+
+	h1 {
+		margin: 0;
+		font-weight: 300;
+		font-size: 1.6em;
+	}
+}
+%block {
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #BBB;
+	color: #333;
+}
+.sections {
+	.link {
+
+		li {
+			display: block;
+		}
+		a {
+			@extend %block;
+
+			&:hover {
+				text-decoration: none;
+				background: #eee;
+			}
+		}
+		i {
+			margin-right: 10px;
+			color: $rojo;
+		}
+	}
+	.description {
+		font-size: 0.85em;
+
+		li {
+			@extend %block;
+			padding: 10px 20px;
+		}
+	}
+}
