@@ -1,0 +1,15 @@
+<div ng-controller="Emergencias119">
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-phone"></i> ¿Qué es el 119?</a></li>
+	</ul>
+	<ul class="description">
+		<li><strong>Descripción:</strong> {{::e119_descripcion}}</li>
+		<li><strong>Cómo usarlo:</strong></li>
+	</ul>
+	<ul class="description" ng-repeat="paso in e119_pasos">
+		<li>{{::paso}}</li>
+	</ul>
+	<ul class="link">
+		<li><a href="#home"><i class="fa fa-chevron-left"></i> <span>Volver al menú</span></a></li>
+	</ul>
+</div>

@@ -4,7 +4,7 @@
         "name" : "antes",
         "titulo" : "Antes del sismo",
         "procedimientos" : [
-            "Revisa ele stado de las instalaciones de gas, agua y sistema eléctrico. Corrije las deficiencias",
+            "Revisa el estado de las instalaciones de gas, agua y sistema eléctrico. Corrije las deficiencias",
             "Mantén libre los obstáculos, pasillos y puertas, y cambia d elugar objetos o muebles que le puedan lastimar o caer encima, sobre todo cerca a las camas",
             "Establece un plan de Emergencia y Evacuación (no necesariamente escrito), Reúnete cpm tu familia y vecinos para planificar acciones de Preparación y de Respuesta",
             "Prepara una mochila para Emergencias, fácilo de llevar en casos de evacuación.",
@@ -61,7 +61,7 @@
         "numero" : "1808"
     }],
     "mochila_emergencias" :
-    [{
+    {
         "descripcion" : "Mochila que contiene artículos indispensables y de necesidad específica para la familia, en las primeras 24 horas.",
         "caracteristicas" : "Debe tener bolsillos internos, laterales y frontales según disponibilidad. El peso total aproximado es de 8kg.",
         "contenido" : 
@@ -93,5 +93,17 @@
             "categoria" : "Diversos",
             "productos" : ["Bolsas de plástico resistentes (10)", "Cuchilla multipropósito (1)", "Guantes de trabajo (1 par)", "Cerda de poliester (7m)", "Encendedor (2)", "Plático para piso o techo (3m cuadrados)", "Cinta adhesiva multiusos (1)", "Petate (Alfombra de paja o tela (1)", "Mascarillas (2)"]
         }]
-    }]
+    },
+    "emergencias119" :
+    {
+        "descripcion" : "El 119 te permite acceder al servicio de mensajería de voz GRATUITO, para situaciones de emergencia originadas por desastres naturales como terremotos, maremotos, inundaciones, etc. En el puedes dejar un mensaje de voz de corta duración para que luego sea escuchado por otros usuarios, como por ejemplo, tu familia.",
+        "pasos" : [
+            "Marcar el número dependiendo sie s fijo o celular y dejar un mensaje de voz de corta duración",
+            "Según el plan de Emergencias que has acordado con tu familia u otras personas usan el número para recuperar los mensajes de voz",
+            "Para grabar un mensaje de voz con el número de un teléfono fijo debes llamar al : 119 + 1 + código departamento + número de teléfono",
+            "Para grabar un mensaje en un celular: 119 + 1 + número de celular",
+            "Para escuchar el mensaje dejado en teléfono fijo: 119 + 2 + código del departamento + número de teléfono",
+            "Para escuchar el mensaje dejado en celular: 119 + 2 + número de celular"
+        ]
+    }
 }}

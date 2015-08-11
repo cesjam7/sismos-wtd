@@ -12,15 +12,20 @@ app.config(['$routeProvider', function($routeProvider){
 		templateUrl :  'views/procedimientos.html',
 		controller: 'Procedimientos'
 	})
-	.when('/telefonos', {
-		title : 'Teléfonos de emergencia',
-		templateUrl :  'views/telefonos.html',
-		controller: 'Telefonos'
-	})
 	.when('/mochila', {
 		title : 'Mochila para Emergencias',
 		templateUrl :  'views/mochila.html',
 		controller: 'Mochila'
+	})
+	.when('/emergencias119', {
+		title : '119 Mensajería de voz para emergencias',
+		templateUrl :  'views/emergencias119.html',
+		controller: 'Emergencias119'
+	})
+	.when('/telefonos', {
+		title : 'Teléfonos de emergencia',
+		templateUrl :  'views/telefonos.html',
+		controller: 'Telefonos'
 	})
 	.when('/about', {
 		title : 'El Proyecto',
@@ -53,6 +58,25 @@ app.controller("Procedimientos", function ($scope, $http, $routeParams, filterFi
 	});
 });
 
+app.controller("Mochila", function ($scope, $http, $routeParams) {
+	$http.get(json).success(function (data) {
+
+		$scope.mochila_descripcion = data.wtd.mochila_emergencias.descripcion;
+		$scope.mochila_caracteristicas = data.wtd.mochila_emergencias.caracteristicas;
+		$scope.mochila_contenido = data.wtd.mochila_emergencias.contenido;
+
+	});
+})
+
+app.controller("Emergencias119", function ($scope, $http, $routeParams) {
+	$http.get(json).success(function (data) {
+
+		$scope.e119_descripcion = data.wtd.emergencias119.descripcion;
+		$scope.e119_pasos = data.wtd.emergencias119.pasos;
+
+	});
+})
+
 app.controller("Telefonos", function ($scope, $http, $routeParams) {
 	$http.get(json).success(function (data) {
 
@@ -60,16 +84,6 @@ app.controller("Telefonos", function ($scope, $http, $routeParams) {
 
 	});
 });
-
-app.controller("Mochila", function ($scope, $http, $routeParams) {
-	$http.get(json).success(function (data) {
-
-		$scope.mochila_descripcion = data.wtd.mochila_emergencias[0].descripcion;
-		$scope.mochila_caracteristicas = data.wtd.mochila_emergencias[0].caracteristicas;
-		$scope.mochila_contenido = data.wtd.mochila_emergencias[0].contenido;
-
-	});
-})
 
 app.run(['$location', '$rootScope', function($location, $rootScope) {
 	$rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
