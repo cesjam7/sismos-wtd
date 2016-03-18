@@ -8,8 +8,8 @@ Contiene:
 - Qué es y para qué sirve el 119
 - Números de emergencia
 
-JSON que se implementó para tener la data: http://jovenred.com/sismos-wtd/json/sismos_wtd.json
+JSON que se implementó para tener la data: http://sismos-wtd.herokuapp.com/json/sismos_wtd.json
 
-Para verlo ingresa a http://jovenred.com/sismos-wtd/ o escanea el siguiente código qr desde tu celular:
+Para verlo ingresa a http://sismos-wtd.herokuapp.com/ o escanea el siguiente código qr desde tu celular:
 
-![alt tag](http://jovenred.com/sismos-wtd/qr-code.png)
+![alt tag](http://sismos-wtd.herokuapp.com/qr-code.png)
